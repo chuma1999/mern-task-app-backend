@@ -18,7 +18,7 @@ app.use(
       "http://localhost:3000",
       "https://mern-task-app-frontend-q1v0.onrender.com"
     ]
-  }
+  })
 );
 app.use("/api/tasks", taskRoutes);
 
